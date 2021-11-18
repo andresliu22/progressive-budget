@@ -1,70 +1,72 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Progressive Budget
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+## Description
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+List and check your budget with or without internet using this app. Add or substract and track your budget at any time.
 
-Offline Functionality:
+## Site Picture
 
-  * Enter deposits offline
+![Site Picture](./assets/images/site-img.PNG)
 
-  * Enter expenses offline
+## Getting Started
 
-When brought back online:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-  * Offline entries should be added to tracker.
+* Click on the green button named Code on github and copy the URL of the repository.
+* Use the command git clone (repository's URL) to clone all existing project on your local machine.
+* Start your testing opening your terminal or command line and going to the repository location on your machine.
+* Type the command "npm install" to get the libraries used in this project.
+* Type the command "npm start" to start the app.
+* Open your browser and copy the url with your port of choice and start tracking your workouts!
 
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+## Prerequisites
 
-## Business Context
+* Git
+* Node.js
+* NPM
+* Express
+* MongoDB
+* Mongoose
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+## Installing
 
+* Fork the project to get your own copy of the repository.
+* Clone the repository.
+* Follow the steps above to manage your E-Commerce Back End.
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+## Built With
 
-- - -
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/javascript)
+* [Node.js](https://nodejs.org/en/)
+* [NPM](https://docs.npmjs.com/)
+* [Express](https://expressjs.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [Mongoose](https://mongoosejs.com/)
+* [If-env](https://www.npmjs.com/package/if-env)
+* [lite-server](https://www.npmjs.com/package/lite-server)
+* [nodemon](https://www.npmjs.com/package/nodemon)
 
-## Commit Early and Often
+## Deployed Link
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+* [See Deployed App](https://andresliu-progressive-budget.herokuapp.com/)
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+## Authors
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+* **Andres Liu** 
 
-* Follow these guidelines for committing:
+## Contacts
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+- [Link to Portfolio Site](https://andresliu22.github.io/updated-portfolio/)
+- [Link to Github](https://github.com/andresliu22/)
+- [Link to LinkedIn](https://www.linkedin.com/in/andresliu22/)
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+## License
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+This project is licensed under the ISC License.
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+## Acknowledgments
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+* Always do some research to get the best possible way to code anything.
+* Make the website and code easy to read for viewers and other developers by using brief comments.
+* Be use to commit to get an insight of what you have done for each progress you make.
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
-- - -
-
-## Hint
-
-* In order to cache dynamic content, i.e. users' inputs for withdrawals or deposits, incorporate `indexedDB` from the previous module.
-
-* Use [Google](https://www.google.com) or another search engine to research this topic.
