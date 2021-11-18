@@ -32,7 +32,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Fork the project to get your own copy of the repository.
 * Clone the repository.
-* Follow the steps above to manage your E-Commerce Back End.
+* Follow the steps above to run app.
 
 ## Built With
 
